@@ -3,6 +3,7 @@ CS-360-H7227 Mobile Architect &amp; Programming 22EW6 for SNHU
 
 
 - Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+
 The application that I developed was an inventory app that allowed users to insert items into an inventory database to keep track of the items and their quantities.
 
 
