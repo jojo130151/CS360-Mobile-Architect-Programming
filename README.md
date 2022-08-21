@@ -19,8 +19,14 @@ I started with making the layouts how I wanted. I planned what they would look a
 
 - How did you test to ensure your code was functional? Why is this process important and what did it reveal?
 
+I incorporated output statements throughout the code to test object variables, that functions were running, and where there might be logic errors occuring. This was helpful, especially with this type of program where the functions run on listeners and activity events. As a programmer, you can't be 100% sure what is beig triggered correctly and what is running. These output statements helped my to see that I was running a class twice because of an activity event. I could also see that some variables were not being populated with what I wanted them to.
+
 
 - Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
 
+I had to innovate how to have the seperate inventorys for each user dynamically show in a personalized grid for the user. First, each user needed to have their own iventory to show. This was accomplished by using a user associated id to invoke that specific user's inventory. Another challenge was getting an adapter to work correctly so that information could be passed to it and it would populate my gridview with each item in its own grid space. I went through three different adapters to get it working correctly. There is a very specific structure to how these adapters run and the code must adhere to them.
+
 
 - In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+The most successful part of my application is having the personalized inventories showing in a adapter filled grid. The inventory tables being structed with a user id in the function for creating. 
